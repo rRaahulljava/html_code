@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Job application</h2>
+        <br/>
+        <label for="name">Name:</label>
+        <br/>
+        <br/>
+        <input type="text" id="name" placeholder="Enter name">
+        <br/>
+        <br/>
+        <label for="email">Email:</label>
+        <br/>
+        <br/>
+        <input type="text" id="email" placeholder="Enter email Id">
+        <br/>
+        <br/>
+        <label for="phone">Phone:</label>
+        <br/>
+        <br/>
+        <input type="text" id="phone" placeholder="Enter phone no.">
+        <br/>
+        <br/>
+        <label for="resume">Resume:</label>
+        <br/>
+        <br/>
+        <input type="file" id="resume"> 
+        <br/>
+        <br/>
+        <label for="counter">Exprience:</label>
+        <input type="number" name="counter" id="counter" min="0" max="50"> 
+        <fieldset>
+            <legend>Skill</legend>
+            <input type="checkbox" id="html">
+            <br/>
+            <br/>
+            <label for="html">HTML</label>
+            <br/>
+            <br/>
+            <input type="checkbox" id="css">
+            <br/>
+            <br/>
+            <label for="css">CSS</label>
+            <br/>
+            <br/>
+            <input type="checkbox" id="javascript">
+            <br/>
+            <br/>
+            <label for="javascript">JavaScript</label>
+
+        </fieldset> 
+        <br/>
+
+        <label for="occupation">Higher education:</label>
+        <br/>
+        <select name="occupation" id="occupation">
+            <option value="high school">high school</option>
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+        </select>
+        <br/>
+
+        <fieldset>
+            <legend>Availability</legend>
+            <input type="radio" name="radio" id="yes">
+            <label for="yes">Yes</label>
+            <br/> 
+            <input type="radio" name="radio" id="no">
+            <label for="no">No</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>gender</legend>
+            
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+            <br/>
+           
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+        
+
+         <!-- <label for="other">other</label>
+         <input type="radio" name="other" id="other"> -->
+          </fieldset>
+
+          <textarea name="text" id="text" cols="30" rows="5">Additional Comments</textarea>
+          <input type="submit" value="Submit Application">
+        
+
+    </form>
+</body>
+</html>
